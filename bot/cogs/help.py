@@ -7,7 +7,7 @@ from typing import List, Union
 
 from discord import Colour, Embed, Member, Message, NotFound, Reaction, User
 from discord.ext.commands import Bot, Cog, Command, Context, Group, HelpCommand
-from fuzzywuzzy import fuzz, process
+from rapidfuzz import fuzz, process
 
 from bot import constants
 from bot.constants import Channels, Emojis, STAFF_ROLES
